@@ -1,0 +1,10 @@
+---
+#- name: demarrer docker
+#  systemd: state=started name=docker
+# - name: installer apache
+  # yum: 
+    # state=absent
+    # name=httpd
+- script: /etc/ansible/suppression_fichier.sh --some-arguments 1234
+  args:
+    removes: /etc/ansible/fichier.txt

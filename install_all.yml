@@ -1,0 +1,5 @@
+---
+#utiliser "- include:" ne sera pas supportée dans la version 2.8
+- import_playbook: create.yml
+- import_playbook: delete.yml
+- import_playbook: checkService.yml
